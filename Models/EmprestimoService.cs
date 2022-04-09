@@ -32,8 +32,9 @@ namespace Biblioteca.Models
                 bc.SaveChanges();
             }
         }
+
         public ICollection<Emprestimo> ListarTodos(FiltrosEmprestimos filtro = null)
-       {
+        {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
                 IQueryable<Emprestimo> consulta;

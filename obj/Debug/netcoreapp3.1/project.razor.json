@@ -14402,6 +14402,11 @@
   "RootNamespace": "Biblioteca",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
       "TargetPath": "Views\\Livro\\Cadastro.cshtml",
       "FileKind": "mvc"
@@ -14452,6 +14457,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Usuario\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\ExcluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14459,6 +14469,16 @@
     {
       "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Usuario\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Usuario\\CadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuario\\CadastroRealizado.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14474,6 +14494,16 @@
     {
       "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Usuario\\RegistrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\RegistrarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC07\\ATIVIDADE 02\\UC07_ATV02-HIROSHI IASSUNICHI\\Biblioteca\\Views\\Usuario\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\EditarUsuario.cshtml",
       "FileKind": "mvc"
     }
   ],
