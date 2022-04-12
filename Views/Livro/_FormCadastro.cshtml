@@ -1,19 +1,32 @@
 @model Livro
 <div class="row justify-content-md-center">
-    <form asp-action="Cadastro" method="POST" class="col-md-4">
+     <div class="jumbotron col-6">
+    <form asp-action="Cadastro" method="POST">
         <input type="hidden" asp-for="Id" />
+
         <div class="form-group">
             <label asp-for="Titulo">Titulo</label>
             <input asp-for="Titulo" class="form-control" required/>
         </div>
+
         <div class="form-group">
             <label asp-for="Autor">Autor</label>
             <input asp-for="Autor" class="form-control" required/>
         </div>
-        <div>
+         
+        <div class="form-group">
             <label asp-for="Ano">Ano</label>
-            <input asp-for="Ano" required/>
+            <input asp-for="Ano" class="form-control" required/>
         </div>
-        <input type="submit" value="Salvar" class="btn btn-primary"/>
+
+         <div class="form-group">
+           <input type="submit" value="Salvar" class="btn btn-primary btn-block"/>
+         </div>
+        
+
+        <div class="form-group">
+              <a href="/Livro/Listagem" class="btn btn-outline-danger btn-block">Cancelar</a>
+        </div> 
     </form>
+</div>
 </div>

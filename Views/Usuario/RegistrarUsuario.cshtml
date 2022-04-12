@@ -1,15 +1,39 @@
 @model Usuario 
 
-<h1>Fazer registro de Novo Usuário</h1>
-<form action="RegistrarUsuario" method="post">
-  <input type="text" name="NomeUsuario" id="userNome" placeholder="Nome">
-  <input type="text" name="Login" id="userLogin" placeholder="Login">
-  <input type="text" name="SenhaUsuario" id="userSenha" placeholder="Senha">
+<h1 class="row justify-content-md-center">Fazer registro de Novo Usuário</h1>
+<div class="row justify-content-md-center">
+  <div class="jumbotron col-6">
+    <form action="RegistrarUsuario" method="post">
+      <div class="container">
+        <fieldset>
+            <div class="form-group">
+                <input type="text" class="form-control" name="NomeUsuario" id="userNome" placeholder="Nome">
+            </div>
+  
+              <div class="form-group">
+                <input type="text" class="form-control" name="Login" id="userLogin" placeholder="Login">
+              </div>
+         
+              <div class="form-group">
+                <input type="text" class="form-control" name="SenhaUsuario" id="userSenha" placeholder="Senha">
+              </div>
+             
+              <div class="form-group">
+                <select class="form-control" name="Tipo" id="userTipo">
+                  <option value="@Usuario.ADMIN">Administrador</option>
+                  <option value="@Usuario.USER">Padrão</option>
+                </select>
+              </div>
+              
+            <div class="form-group">
+              <input type="submit" value="Registrar" class="btn btn-primary btn-block">
+            </div> 
 
-  <select name="Tipo" id="userTipo">
-    <option value="@Usuario.ADMIN">Administrador</option>
-    <option value="@Usuario.USER">Padrão</option>
-  </select>
-
-  <input type="submit" value="Registrar" class="btn btn-success">
-</form> 
+            <div class="form-group">
+              <a href="/Usuario/ListaDeUsuarios" class="btn btn-outline-danger btn-block">Cancelar</a>
+            </div> 
+        </fieldset>
+      </div>
+    </form> 
+</div> 
+</div>
